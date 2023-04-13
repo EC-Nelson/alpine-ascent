@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <!--Angular Route-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+    <script src="lib/app.js"></script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AuCdZdUAe8ca0RMXqS6-pz1cpCojRebQFV7eu-MjVNFmb9_Zhws5K7S3ZP7AksLs' async defer></script>
+    <script  src="lib/geolocation.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>index</title>
+</head>
+<body>
+    <header ng-include="'header.html'"></header>
+    <!--ng-view-->
+    <main ng-view></main>
+</body>
+</html>

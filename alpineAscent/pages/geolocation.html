@@ -1,0 +1,19 @@
+<div>
+<div id="map"></div>
+<section ng-controller="myController" ng-repeat="x in clubs">
+    <article ng-if="$odd">
+        <img src="{{x.image}}" alt="" class="club_pic">
+        <div class="club_dits">
+            <p class="club_story">{{x.story}}</p>
+            <p class="club_name" style="color: #FE9B83">{{x.name}}</p>
+        </div>
+    </article>
+    <article ng-if="$even" style="flex-direction: row-reverse;">
+        <img src="{{x.image}}" alt="" class="club_pic">
+        <div class="club_dits">
+            <p class="club_story">{{x.story}}</p>
+            <p class="club_name" style="color: #FE9B83">{{x.name}}</p>
+        </div>
+    </article>
+</section>
+</div>
