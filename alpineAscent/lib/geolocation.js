@@ -44,3 +44,4 @@ var pinInfobox;
         }
  /***** map(bing api) *******/
 
+ 

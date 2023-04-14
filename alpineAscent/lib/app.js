@@ -59,8 +59,16 @@ app.controller('myController', function($scope){
             "story" : "In 2019, a team from the Seven Summits Club successfully summited Elbrus, the highest peak in Europe. The club has a mission of helping climbers reach the highest peaks on each continent and has led expeditions to many of the world's most challenging mountains.",
             "image" : "https://7vershin.ru/media/full/10/41925.jpg"
         }
-    ]
+    ];
     /******info for the success stories in geolocation.html*******/
-   
+
+    $scope.futerLnkLoadBhvr = function (){
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          });
+    }
 });
+
 
